@@ -1,0 +1,30 @@
+:root {
+  --bg-color: #1d1d1d;
+  --term-bg-color: black;
+  --term-text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  transition: 0.3s ease;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.App .switch {
+  align-self: flex-end;
+  margin: 2rem 2rem 0 0;
+}
+
+.xterm-screen {
+  background-color: var(--term-bg-color);
+}
+
+.xterm-rows {
+  color: var(--term-text-color) !important;
+}

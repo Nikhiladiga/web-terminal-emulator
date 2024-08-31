@@ -1,0 +1,33 @@
+.terminal-container {
+  margin-top: 2rem;
+  -webkit-box-shadow: -1px 7px 21px 3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -1px 7px 21px 3px rgba(0, 0, 0, 0.53);
+  box-shadow: -1px 7px 21px 3px rgba(0, 0, 0, 0.53);
+}
+
+.terminal-window header {
+  background: #e0e8f0;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 10px;
+}
+
+.terminal-window header .button {
+  width: 12px;
+  height: 12px;
+  margin: 10px 4px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.terminal-window header .button.green {
+  background: #3bb662;
+}
+
+.terminal-window header .button.yellow {
+  background: #e5c30f;
+}
+
+.terminal-window header .button.red {
+  background: #e75448;
+}
